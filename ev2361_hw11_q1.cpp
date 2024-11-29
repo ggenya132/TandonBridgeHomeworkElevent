@@ -53,8 +53,10 @@ void printRuler(int n) {
     printRuler(n - 1);
 }
 int main() {
-    // printTriangle(4);
-    // printOppositeTriangles(4);
+    printTriangle(4);
+    cout << endl;
+    printOppositeTriangles(4);
+    cout << endl;
     printRuler(4);
     return 1;
 }
